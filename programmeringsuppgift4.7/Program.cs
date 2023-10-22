@@ -10,10 +10,10 @@ namespace inlämningsuppgift4_7
             string meddelande = Console.ReadLine();
             Console.WriteLine("Hur många steg åt höger vill du ha dina meddelanden");
             int steg = int.Parse(Console.ReadLine());
-            for (int i = 0; i < meddelande.Length; i++)
+            for (int a = 0; a < meddelande.Length; a++)
             {
                 string bokstav = meddelande[i].ToString();
-                for (int j = 0; j < steg; j++)
+                for (int b = 0; b < steg; b++)
                 {
                     Console.Write(" ");
                 }
